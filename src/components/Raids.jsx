@@ -14,7 +14,7 @@ function Raids() {
 
   useEffect(() => {
     getRaids();
-  }, []);
+  }, [getRaids]);
 
   async function getRaids() {
     const { data } = await supabase.from("raids").select();
@@ -81,4 +81,3 @@ function Raids() {
 }
 
 export default Raids;
-

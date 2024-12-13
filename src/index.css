@@ -66,3 +66,13 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertikale Zentrierung */
+  align-items: center;    /* Horizontale Zentrierung */
+  height: 100vh;          /* Die volle Höhe des Viewports */
+  margin: 0;
+  text-align: center;     /* Zentriert den Text */
+}
